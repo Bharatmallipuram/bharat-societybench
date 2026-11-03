@@ -22,7 +22,7 @@ import requests
 # HANDLE = os.environ.get("BSKY_HANDLE", "")
 HANDLE = "kobe08-24.bsky.social"
 # APP_PASSWORD = os.environ.get("BSKY_APP_PASSWORD", "")
-APP_PASSWORD = "12345678"
+APP_PASSWORD = "**********"
 
 
 # ---- What to collect --------------------------------------------------------
