@@ -331,6 +331,7 @@ def main():
         if args.pipeline_config
         else load_pipeline_config()
     )
+<<<<<<< HEAD
 
     try:
         HF_TOKEN = cfg.get("hf_token") or os.environ.get("hf_token")
@@ -345,6 +346,11 @@ def main():
     login(token=HF_TOKEN)
 
 
+=======
+    HF_TOKEN = cfg.get("hf_token")
+    login(token=HF_TOKEN)
+
+>>>>>>> 9af6840 (Hiding environment secrets. (1))
     en_indic_ckpt_dir = args.en_indic_chk_dir or "ai4bharat/indictrans2-indic-en-1B"
     BATCH_SIZE = args.batch_size or 5
     TARGET_FIELDS = cfg.get("target_fields_for_translation") or {"title", "text", "query"}

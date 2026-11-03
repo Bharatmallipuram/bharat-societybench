@@ -1,5 +1,6 @@
 {
   "_description": "SocietyBench — generic pipeline runtime parameters. Edit values to tune behavior. NO event-specific entity names here; those stay out of this file. CLI flags on each script override the values below. Keys prefixed with `_` are inline documentation (loaders ignore them).",
+  "hf_token":"YOUR HUGGIGNG FACE TOKEN HERE",
   "default_llm_model": "deepseek-r1:1.5b",
   "hf_token": "YOUR HF TOKEN HERE",
   "_default_llm_model_note": "Used by summarization / dedup / classification / question-bank generation. Resolved via DMXAPI (see config.example.env).",
