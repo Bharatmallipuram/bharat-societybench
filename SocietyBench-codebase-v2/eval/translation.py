@@ -33,7 +33,6 @@ from prettytable import PrettyTable
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 quantization = None
 
-
 def collect_fields(data, TARGET_FIELDS):
     """
     Flatten target fields into a list of strings.
